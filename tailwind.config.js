@@ -34,7 +34,7 @@ module.exports = {
         teal: {
           100: "#E6FFFA",
           200: "#B2F5EA",
-          300: "#81E6D9",
+          300: "#29C7C7",
           400: "#08fdd8",
           500: "#3ABAB4",
           600: "#319795",
@@ -47,6 +47,10 @@ module.exports = {
 
           800: "#FF006F",
           900: "#FC0356",
+        },
+        violet: {
+          800: "#3B3054",
+          900: "#232127",
         },
       },
       boxShadow: {
@@ -67,12 +71,7 @@ module.exports = {
         "3/4": "75%",
         "1/1": "100%",
       },
-      fontFamily: {
-        sans: "AlongSans",
-        cool: "DancingScript",
-        calibri: "Calibri",
-        brandon: "Brandon",
-      },
+
       fontSize: {
         xs: "0.75rem",
         sm: "0.875rem",
