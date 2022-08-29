@@ -27,7 +27,7 @@ function Footer() {
         <div className="">
           <span className="text-white text-2xl font-bold ">Shortly</span>
         </div>
-        <div className="grid grid-cols-4 pr-80">
+        <div className="grid lg:grid-cols-4 grid-cols-1 pr-80">
           <div>
             <h2 className="block font-bold text-xl text-white pb-6">
               Features
