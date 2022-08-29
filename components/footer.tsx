@@ -38,25 +38,27 @@ function Footer() {
           </div>
           <div>
             <h2 className="block font-bold text-xl text-white pb-6">
-              Features
+              Resources
             </h2>
-            <span className="block text-gray-400 pb-2">Link Shortening</span>
-            <span className="block text-gray-400 pb-2">Branded Links</span>
-            <span className="block text-gray-400 ">Analytics</span>
+            <span className="block text-gray-400 pb-2">Blog</span>
+            <span className="block text-gray-400 pb-2">Developers</span>
+            <span className="block text-gray-400 ">Support</span>
           </div>
           <div>
             <h2 className="block font-bold text-xl text-white pr-20 pb-6">
-              Features
+              Company
             </h2>
-            <span className="block text-gray-400 pb-2">Link Shortening</span>
-            <span className="block text-gray-400 pb-2">Branded Links</span>
-            <span className="block text-gray-400 ">Analytics</span>
+            <span className="block text-gray-400 pb-2">About</span>
+            <span className="block text-gray-400 pb-2">Our Team</span>
+            <span className="block text-gray-400 pb-2 ">Careers</span>
+            <span className="block text-gray-400 ">Contact</span>
           </div>
           <div>
-            <Image src={fb} className="pr-8"></Image>
-            <Image src={twitter} className="pr-8"></Image>
-            <Image src={pinterest} className="pr-8"></Image>
-            <Image src={ig} className="pr-8"></Image>
+            <Image src={fb} className=""></Image>
+
+            <Image src={twitter} className=""></Image>
+            <Image src={pinterest} className=""></Image>
+            <Image src={ig} className=""></Image>
           </div>
         </div>
       </div>

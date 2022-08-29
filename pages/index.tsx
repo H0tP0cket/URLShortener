@@ -4,6 +4,7 @@ import Image from "next/image";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Intro from "./Intro";
+import Stats from "./Stats";
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       <main className="">
         <Navbar />
         <Intro />
+        <Stats />
         <Footer />
       </main>
     </div>
