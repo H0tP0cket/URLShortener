@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-
+import Image from "next/Image";
 import { useRouter } from "next/router";
-
+import logo from "../public/images/logo.svg";
 function Navbar() {
   const router = useRouter();
 
@@ -24,19 +24,18 @@ function Navbar() {
 
   return (
     <header className=" w-full z-30  transition duration-300 ease-in-out bg-white">
-      <nav className="max-w-6xl mx-auto">
+      <nav className="px-10 lg:px-40 mx-auto">
         <div className="flex flex-wrap items-center justify-between py-2 md:py-4">
           {/* Site branding */}
           <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
             {/* <div className="w-full flex-grow flex-row justify-between md:w-auto mr-4"> !!!!!! mr-4 */}
             {/* Logo */}
             <Link href="/">
-              <a className="" aria-label="Tech Support">
-                <h1 className="font-bold text-violet-900 text-2xl md:text-3xl absolute px-4 ">
-                  Shortly
-                </h1>
+              <a className="pt-2 " aria-label="Tech Support">
+                <Image src={logo} />
               </a>
             </Link>
+
             <button
               onClick={() => setNavbarOpen(!navbarOpen)}
               className="focus:outline-none leading-none md:hidden px-4"
@@ -89,22 +88,22 @@ function Navbar() {
           >
             <ul className="flex flex-grow flex-col md:flex-row md:justify-end flex-wrap md:items-center">
               <li>
-                <Link href="/">
-                  <button className="font-bold text-gray-400  md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
+                <a href="/" className="">
+                  <button className="font-bold text-gray-400 pl-16 pb-4  md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
                     Login
                   </button>
-                </Link>
+                </a>
               </li>
               {/* <li> */}
               <div title="About"></div>
               <div title="Media"></div>
               {/* </li> */}
               <li>
-                <Link href="/blog">
+                <a href="/" className="pl-12">
                   <a className="bg-teal-300 hover:bg-teal-500  text-white font-bold lg:py-3 lg:px-6 rounded-full py-2 px-4">
                     <button>Sign Up</button>
                   </a>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>

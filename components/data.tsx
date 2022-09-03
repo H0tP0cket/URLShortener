@@ -8,14 +8,14 @@ const Data = [
   },
   {
     id: 2,
-    title: "Website for FTC 11099",
+    title: "Detailed Records",
     content:
       "Gain insights into who is clicking your links. Knowing when and where people engage iwth your content helps inform better decisions.",
     image: "/images/icon-detailed-records.svg",
   },
   {
     id: 3,
-    title: "Triviafy",
+    title: "Fully Customizable",
     content:
       "Improve brand awareness and content discoverability through customizable links, supercharging audience engagement",
     image: "/images/icon-fully-customizable.svg",

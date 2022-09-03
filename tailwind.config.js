@@ -91,6 +91,7 @@ module.exports = {
         "1/2": "50%",
         full: "100%",
       },
+
       letterSpacing: {
         tighter: "-0.02em",
         tight: "-0.01em",
@@ -99,6 +100,7 @@ module.exports = {
         wider: "0.02em",
         widest: "0.4em",
       },
+
       lineHeight: {
         none: "1",
         tighter: "1.125",

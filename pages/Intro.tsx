@@ -21,7 +21,7 @@ function Intro() {
           <h1 className="text-4xl lg:text-6xl text-violet-900 block pb-4 font-bold font-sans leading-tight">
             More than just shorter links
           </h1>
-          <span className="block pb-6 text-gray-400 text-lg md:text-xl pr-60">
+          <span className="block pb-6 text-gray-400 text-lg md:text-xl lg:pr-50">
             Build your brand's recognition and get detailed insights on how your
             links are performing.
           </span>

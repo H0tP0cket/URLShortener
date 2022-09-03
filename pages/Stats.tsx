@@ -21,8 +21,8 @@ function Stats() {
     threshold: 0.4,
   });
   return (
-    <div className="  min-h-screen flex-col items-center justify-center bg-gray-200 py-2 pt-80 ">
-      <h1 className="mb-4 text-5xl text-violet-900 leading-tighter font-bold tracking-tighter  md:text-5xl text-center">
+    <div className=" px-10 lg:px-40 min-h-screen  items-center justify-center bg-gray-200 py-2 ">
+      <h1 className=" mb-4 text-5xl text-violet-900 leading-tighter font-bold tracking-tighter  md:text-5xl text-center pt-16">
         Advanced Statistics
       </h1>
       <div className="leading-none font-semibold">
@@ -32,16 +32,16 @@ function Stats() {
         <span className="block pb-6 text-gray-400 text-lg md:text-xl  text-center  ">
           our advanced statistics dashboard
         </span>
-        <div className="grid grid-cols-1 gap-12 overflow-y-hidden px-16 md:grid-cols-3 md:px-40">
-          {Data.map((stats) => (
-            <Card
-              key={stats.id}
-              title={stats.title}
-              image={stats.image}
-              content={stats.content}
-            />
-          ))}{" "}
-        </div>
+      </div>
+      <div className="grid grid-cols-1 gap-12 overflow-y-hidden px-16 md:grid-cols-3 md:px-0  lg:pt-80 pt-40  ">
+        {Data.map((stats) => (
+          <Card
+            key={stats.id}
+            title={stats.title}
+            image={stats.image}
+            content={stats.content}
+          />
+        ))}{" "}
       </div>
     </div>
   );

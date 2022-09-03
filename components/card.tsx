@@ -16,31 +16,26 @@ import {
 
 function Card(stats: any) {
   return (
-    <div key={stats.id} className="h-auto font-sans">
-      <div className="">
+    <div key={stats.id} className="h-auto relative  font-sans">
+      <div className="pl-8 z-50  ">
         <img
           src={stats.image}
           alt=" random imgee"
-          className=" bg-violet-900 shadow-md p-4 rounded-full"
+          className=" absolute z-50 bg-violet-800 shadow-md p-4 rounded-full -top-12  "
         />
-        <motion.div
-          whileHover={{
-            transition: { duration: 0.3 },
-            y: -20,
-            scale: 1.03,
-          }}
-          className=" -mt-16 px-4  "
-        >
+      </div>
+      <div className="max-w-md content-center z-0">
+        <div className=" z-0   ">
           <div className="rounded-md bg-white p-6 shadow-lg">
-            <h4 className="mt-1  uppercase leading-tight text-violet-900 text-2xl pb-6 font-bold">
+            <h4 className="mt-1   leading-tight text-violet-900 text-2xl pb-6 font-bold">
               {stats.title}
             </h4>
 
-            <div className="mt-1 overflow-hidden text-gray-400 leading-relaxed">
+            <div className="  text-gray-400 leading-relaxed">
               <p>{stats.content}</p>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
