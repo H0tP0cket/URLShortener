@@ -21,7 +21,7 @@ function Stats() {
     threshold: 0.4,
   });
   return (
-    <div className=" px-10 lg:px-40 min-h-screen  items-center justify-center bg-gray-200 py-2 ">
+    <div className=" px-10 lg:px-40 min-h-screen  items-center justify-center bg-gray-200 py-2 pt-20 ">
       <h1 className=" mb-4 text-5xl text-violet-900 leading-tighter font-bold tracking-tighter  md:text-5xl text-center pt-16">
         Advanced Statistics
       </h1>
